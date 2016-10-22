@@ -1,0 +1,101 @@
+<!doctype html>
+<html class="no-js" lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Questão | Simuladão</title>
+    <script type="text/javascript" src="js/JQuery.js"></script>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/add.css">
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="headline">Simuladão</h1>
+      <ul class="header-subnav">
+        <li><a href="#">Início</a></li>
+        <li><a href="simulado.html">Simulado</a></li>
+        <li><a href="adicionar.html" class="is-active">Área Restrita</a></li>
+      </ul>
+    </header>
+    <div class="row">
+      
+      <div class="content small-12 medium-11 small-centered columns">
+        <!-- Add Questão -->
+        <h1 class="page-title">Adicionar questão</h1>
+        <form>
+          <div class="row">
+            <div class="large-12 columns">
+              <label>Enunciado
+                <textarea placeholder="Adicione aqui o enunciado da questão"></textarea>
+              </label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="large-4 columns">
+              <label>Alternativa A
+                <input type="text" placeholder="Alternativa A" />
+              </label>
+            </div>
+            <div class="large-4 columns">
+              <label>Alternativa B
+                <input type="text" placeholder="Alternativa B" />
+              </label>
+            </div>
+            <div class="large-4 columns">
+              <label>Alternativa C
+                <input type="text" placeholder="Alternativa C" />
+              </label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="large-4 columns">
+              <label>Alternativa D
+                <input type="text" placeholder="Alternativa D" />
+              </label>
+            </div>
+            <div class="large-4 columns">
+              <label>Alternativa E
+                <input type="text" placeholder="Alternativa E" />
+              </label>
+            </div>
+          <div class="large-4 columns">
+            <label>Alternativa Correta
+              <select>
+                <option value="0">A</option>
+                <option value="1">B</option>
+                <option value="2">C</option>
+                <option value="3">D</option>
+                <option value="4">E</option>
+              </select>
+            </label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="smal-12 columns">
+            <label>Área do conhecimento
+              <select>
+                <option value="0">Ciências Biológicas</option>
+                <option value="1">Ciências Exatas</option>
+                <option value="2">Ciências Humanas</option>
+                <option value="3">Ciências Linguagens</option>
+              </select>
+            </label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="large-12 columns">
+            <input type="submit" class="button" value="Cadastrar">
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+  
+  <script src="js/vendor/jquery.js"></script>
+  <script src="js/vendor/what-input.js"></script>
+  <script src="js/vendor/foundation.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
